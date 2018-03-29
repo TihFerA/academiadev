@@ -15,7 +15,9 @@ purchases.jsonl As compras feitas pela loja estão aqui. As colunas são similar
 Informações importantes:
 
 É preciso considerar que a data de fechamento do cartão de crédito é no dia 5 de cada mês. Porém, a parcela em si cai apenas no dia 10. Logo, se uma compra ou pagamento foi feito dia 2017-09-05 em diante, a primeira parcela cairá no dia 2017-10-10. Já se tivesse sido no dia 2017-09-04, cairia em 2017-09-10.
+
 Se o método de pagamento for débito, cairá no mesmo instante descrito na coluna timestamp.
+
 O conjunto de dados é gerado dinamicamente para cada pessoa que se inscreve no desafio. Logo, não se assuste se a de seu colega estiver diferente.
 
 Note que o valor diário deve ser arredondado para o inteiro mais próximo.
