@@ -36,7 +36,7 @@ public class AcademiaDev {
             String ln;
             int c = 0;
 
-            BufferedReader br = new BufferedReader(new FileReader(new File("C:\\Temp\\catalog.csv").getAbsoluteFile()));
+            BufferedReader br = new BufferedReader(new FileReader(new File("catalog.csv").getAbsoluteFile()));
             while ((ln = br.readLine()) != null) {
                 if (c == 0) {
                     c++;
@@ -52,7 +52,7 @@ public class AcademiaDev {
             }
             br.close();
 
-            br = new BufferedReader(new FileReader(new File("C:\\Temp\\purchases.jsonl").getAbsoluteFile()));
+            br = new BufferedReader(new FileReader(new File("purchases.jsonl").getAbsoluteFile()));
             while ((ln = br.readLine()) != null) {
                 JSONObject obj = (JSONObject) new JSONParser().parse(ln);
 
@@ -67,7 +67,7 @@ public class AcademiaDev {
             }
             br.close();
 
-            br = new BufferedReader(new FileReader(new File("C:\\Temp\\sales.jsonl").getAbsoluteFile()));
+            br = new BufferedReader(new FileReader(new File("sales.jsonl").getAbsoluteFile()));
             while ((ln = br.readLine()) != null) {
                 JSONObject obj = (JSONObject) new JSONParser().parse(ln);
 
