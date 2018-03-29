@@ -1,5 +1,4 @@
 # academiadev
-projeto do desafio academiaDev
 Sobre seu desafio:
 
 O contexto do desafio é o de uma loja que vende produtos e contrata serviços. O objetivo desse desafio é desenvolver uma aplicação para calcular o fluxo de caixa diário dado um conjunto de dados previamente fornecido.
